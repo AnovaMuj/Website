@@ -8,7 +8,7 @@ import Footer from "./Footer";
 import "./HomePage.css";
 
 function HomePage() {
-  $.fn.moveIt = function () {
+  setTimeout(() => {$.fn.moveIt = function () {
   var $window = $(window);
   var instances = [];
 
@@ -76,7 +76,7 @@ function random(range, unit) {
   return `${randNum}${unit}`;
 }
 
-paintStars(400, 5);
+paintStars(400, 5)}, 1000});
 
 
   return (
