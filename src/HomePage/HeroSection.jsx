@@ -10,7 +10,7 @@ function HeroSection() {
 
   return (
     <div className="HeroContainer">
-      <div id="particle-image" data-params-src="https://cdn.jsdelivr.net/gh/AnovaMuj/Website/src/HomePage/param.json"></div>
+      <div id="particle-image" data-params-src="https://cdn.jsdelivr.net/gh/AnovaMuj/Website/src/HomePage/para.json"></div>
       {loadParticles()}
     </div>
   );
