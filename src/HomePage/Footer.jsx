@@ -1,3 +1,4 @@
+import FooterLogo from "../assets/FooterAnovaLogo.png";
 import "./Footer.css";
 
 const Footer = () => {
@@ -147,7 +148,7 @@ const Footer = () => {
                 </g>
               </svg>
             </div>
-            <img className="Contacttext" src="src/assets/FooterAnovaLogo.png" alt="Anova Socials"></img>
+            <img className="Contacttext" src={FooterLogo} alt="Anova Socials"></img>
             <div className="main_back"></div>
           </div>
         </div>
