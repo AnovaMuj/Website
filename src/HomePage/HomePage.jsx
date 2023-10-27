@@ -17,7 +17,7 @@ function HomePage() {
 
   function loadStars() {
     const scriptTag = document.createElement("script");
-    scriptTag.src = "./HomePage/BackgroundStars.js";
+    scriptTag.src = "/src/HomePage/BackgroundStars.js";
     scriptTag.setAttribute("defer", "defer");
     document.body.appendChild(scriptTag);
   }
