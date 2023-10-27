@@ -10,16 +10,16 @@ import "./HomePage.css";
 function HomePage() {
   function loadParallax() {
     const scriptTag1 = document.createElement("script");
-    scriptTag.src = "src/HomePage/Parallax.js";
-    scriptTag.setAttribute("defer", "defer");
-    document.body.appendChild(scriptTag);
+    scriptTag1.src = "src/HomePage/Parallax.js";
+    scriptTag1.setAttribute("defer", "defer");
+    document.body.appendChild(scriptTag1);
   }
 
   function loadStars() {
     const scriptTag2 = document.createElement("script");
-    scriptTag.src = "src/HomePage/BackgroundStars.js";
-    scriptTag.setAttribute("defer", "defer");
-    document.body.appendChild(scriptTag);
+    scriptTag2.src = "src/HomePage/BackgroundStars.js";
+    scriptTag2.setAttribute("defer", "defer");
+    document.body.appendChild(scriptTag2);
   }
 
   return (
