@@ -30,7 +30,7 @@
   },
   "image": {
     "src": {
-      "path": "https://github.com/AnovaMuj/Website/blob/main/src/assets/AnovaLogo.png",
+      "path": "https://cdn.jsdelivr.net/gh/AnovaMuj/Website/src/assets/AnovaLogo.png",
       "is_external": false
     },
     "size": {
