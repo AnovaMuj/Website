@@ -1,3 +1,4 @@
+import NavLogo from "../assets/NavAnovaLogo.png";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -5,7 +6,7 @@ const Navbar = () => {
   return (
     <div className="Nav">
       <a className="NavLogoTag" href="#HeroSection">
-        <img className="NavLogo" src="../assets/NavAnovaLogo.png" alt="Anova Logo" />
+        <img className="NavLogo" src={NavLogo} alt="Anova Logo" />
       </a>
       <div className="NavLinksDiv">
         <a className="NavLinks" href="#Overview">
