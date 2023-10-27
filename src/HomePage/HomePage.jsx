@@ -6,12 +6,21 @@ import PastEvents from "./PastEvents";
 import UpcomingEvents from "./UpcomingEvents";
 import Footer from "./Footer";
 import "./HomePage.css";
-import Parallax from "./Parallax";
-import BackgroundStars from "./BackgroundStars";
 
 function HomePage() {
-  {Parallax()}
-  {BackgroundStars()}
+  function loadParallax() {
+    const scriptTag = document.createElement("script");
+    scriptTag.src = "./src/HomePage/Parallax.js";
+    scriptTag.setAttribute("defer", "defer");
+    document.body.appendChild(scriptTag);
+  }
+
+  function loadStars() {
+    const scriptTag = document.createElement("script");
+    scriptTag.src = "./src/HomePage/BackgroundStars.js";
+    scriptTag.setAttribute("defer", "defer");
+    document.body.appendChild(scriptTag);
+  }
 
   return (
     <>
