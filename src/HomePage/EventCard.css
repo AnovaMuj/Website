@@ -1,0 +1,45 @@
+.EventFrame {
+  background: rgba(38, 38, 38, 0.5);
+  border-radius: .7rem;
+  padding: 2em;
+  margin: 5em;
+}
+
+.EventTitle {
+  font-family: "Posterama 2001 W04 SemiBold";
+  font-size: 1.5em;
+  color: white;
+}
+
+.EventContent {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.EventPosterFrame {
+  display: flex;
+  gap: 0.5em;
+  justify-content: center;
+  margin: 2em 0;
+}
+
+.EventPoster {
+  width: 15vw;
+  border: 2px solid white;
+}
+
+.EventPoster:nth-child(odd) {
+  scale: 0.9;
+}
+
+@media only screen and (max-width: 968px) {
+  .EventFrame {
+    border-radius: .7rem;
+    padding: 1em;
+    margin: 1em;
+  }
+
+  .EventPoster {
+    width: 25vw;
+  }
+}

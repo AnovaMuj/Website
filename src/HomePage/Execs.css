@@ -1,0 +1,6 @@
+.ExecContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5vw;
+  justify-content: center;
+}
