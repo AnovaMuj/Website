@@ -30,8 +30,8 @@
   },
   "image": {
     "src": {
-      "path": "https://github.com/AnovaMuj/Website/blob/main/src/assets/AnovaLogo.png?raw=true",
-      "is_external": false
+      "path": "https://anovamuj.vercel.app/assets/NavAnovaLogo-5ad687f3.png",
+      "is_external": true
     },
     "size": {
       "canvas_pct": 90,
