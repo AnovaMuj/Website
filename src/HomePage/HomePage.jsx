@@ -9,14 +9,14 @@ import "./HomePage.css";
 
 function HomePage() {
   function loadParallax() {
-    const scriptTag = document.createElement("script");
+    const scriptTag1 = document.createElement("script");
     scriptTag.src = "src/HomePage/Parallax.js";
     scriptTag.setAttribute("defer", "defer");
     document.body.appendChild(scriptTag);
   }
 
   function loadStars() {
-    const scriptTag = document.createElement("script");
+    const scriptTag2 = document.createElement("script");
     scriptTag.src = "src/HomePage/BackgroundStars.js";
     scriptTag.setAttribute("defer", "defer");
     document.body.appendChild(scriptTag);
