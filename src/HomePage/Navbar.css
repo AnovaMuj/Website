@@ -1,0 +1,105 @@
+.Nav {
+  display: flex;
+  align-items: center;
+  font-family: "Posterama 2001 W04 SemiBold";
+  gap: 1em;
+  justify-content: space-between;
+  padding: 0 2em;
+  position: sticky;
+  top: 0;
+  z-index: 11;
+  background: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.6), transparent);
+}
+
+.NavLogo {
+  width: 3em;
+  padding-top: 5px;
+}
+
+.NavLinksDiv {
+  display: flex;
+  gap: 1em;
+}
+
+.NavLinks {
+  text-decoration: none;
+  color: white;
+  background:
+    linear-gradient(
+      to right,
+      rgba(100, 200, 200, 0),
+      rgba(100, 200, 200, 0)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 0.7),
+      rgba(255, 0, 180, 0.7),
+      rgba(0, 100, 200, 0.7)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.NavLinks:hover {
+  background-size: 0 3px, 100% 3px;
+}
+
+.hamburger {
+  cursor: pointer;
+  display: none;
+}
+
+.hamburger input {
+  display: none;
+}
+
+.hamburger svg {
+  height: 3em;
+  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line {
+  fill: none;
+  stroke: white;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 3;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+              stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.line-top-bottom {
+  stroke-dasharray: 12 63;
+}
+
+.hamburger input:checked + svg {
+  transform: rotate(-45deg);
+}
+
+.hamburger input:checked + svg .line-top-bottom {
+  stroke-dasharray: 20 300;
+  stroke-dashoffset: -32.42;
+}
+
+@media only screen and (max-width: 968px) {
+  .hamburger {
+    display: block;
+  }
+
+  .NavLinksDiv {
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 80vh;
+    display: none;
+    height: 200vh;
+    width: 100vw;
+    background-color: rgba(69, 69, 69, 0.5);
+  }
+}
