@@ -30,7 +30,7 @@
   },
   "image": {
     "src": {
-      "path": "/assets/AnovaLogo.png",
+      "path": "../assets/AnovaLogo.png",
       "is_external": false
     },
     "size": {
