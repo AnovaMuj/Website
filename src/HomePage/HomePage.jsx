@@ -6,8 +6,8 @@ import PastEvents from "./PastEvents";
 import UpcomingEvents from "./UpcomingEvents";
 import Footer from "./Footer";
 import "./HomePage.css";
-import Parallax from "./Parallax.js";
-import BackgroundStars from "./BackgroundStars.js";
+import Parallax from "./Parallax";
+import BackgroundStars from "./BackgroundStars";
 
 function HomePage() {
   {Parallax()}
