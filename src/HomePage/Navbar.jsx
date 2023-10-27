@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className="Nav">
       <a className="NavLogoTag" href="#HeroSection">
-        <img className="NavLogo" src="src/assets/NavAnovaLogo.png" alt="Anova Logo" />
+        <img className="NavLogo" src="../assets/NavAnovaLogo.png" alt="Anova Logo" />
       </a>
       <div className="NavLinksDiv">
         <a className="NavLinks" href="#Overview">
