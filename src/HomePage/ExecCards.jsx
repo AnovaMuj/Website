@@ -1,6 +1,6 @@
 import "./ExecCards.css";
 
-const ExecCards = ({ Picture, Name, About, Insta, Mail, Contact }) => {
+const ExecCards = ({ Picture, Name, Post, Quote, Insta, Mail, Contact }) => {
   return (
     <div className="ExecCard">
       <button href={"mailto:" + Mail} className="ExecMail">
