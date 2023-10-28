@@ -101,7 +101,21 @@
   font-weight: bold;
 }
 
-.ExecCard .ExecCardBottom .ExecContent .ExecAboutMe {
+.ExecCard .ExecCardBottom .ExecContent {
+  display: block;
+  font-size: 0.9rem;
+  color: white;
+  margin-top: 1rem;
+}
+
+.ExecPost {
+  display: block;
+  font-size: 0.9rem;
+  color: white;
+  font-style: italic;
+}
+
+.ExecQuote {
   display: block;
   font-size: 0.9rem;
   color: white;
