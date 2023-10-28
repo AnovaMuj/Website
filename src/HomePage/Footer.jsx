@@ -23,7 +23,7 @@ const Footer = () => {
           <br />
           And innovation that knows
           <br />
-          NoLimits.
+          No Limits.
         </p>
         <a href="https://forms.gle/kgJr1jMRW8MbSsQi9" target="_blank" ><button className="FooterContentButton">Join Us</button></a>
       </div>
