@@ -15,7 +15,8 @@ const ExecCards = ({ Picture, Name, About, Insta, Mail, Contact }) => {
       <div className="ExecCardBottom">
         <div className="ExecContent">
           <span className="ExecName">{Name}</span>
-          <span className="ExecAboutMe">{About}</span>
+          <span className="ExecPost">{Post}</span>
+          <span className="ExecQuote">{Quote}</span>
         </div>
         <div className="ExecBottomBottom">
           <div className="ExecSocialLinksContainer">
