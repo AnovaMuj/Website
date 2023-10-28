@@ -25,7 +25,7 @@ const Footer = () => {
           <br />
           NoLimits.
         </p>
-        <button className="FooterContentButton">Join Us</button>
+        <a href="https://forms.gle/kgJr1jMRW8MbSsQi9" target="_blank" ><button className="FooterContentButton">Join Us</button></a>
       </div>
       <h4 className="FooterMotto">
         #Nexus<span className="FooterWordHighlight">Of</span>Variance
