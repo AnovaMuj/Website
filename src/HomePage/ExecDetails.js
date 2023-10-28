@@ -8,7 +8,8 @@ import Tech from "../assets/Tech.jpg";
 export const ExecDetails = [
   {
     Name: "Deivyansh Singh",
-    About: "Chairperson",
+    Post: "Chairperson",
+    Quote: "Let's build together a strong foundation for tomorrow",
     Insta: "https://instagram.com/singhdeivyansh?igshid=MzRlODBiNWFlZA==",
     Mail: "",
     Contact: "",
@@ -16,7 +17,8 @@ export const ExecDetails = [
   },
   {
     Name: "Arsh Kasid",
-    About: "Vice-Chairperson",
+    Post: "Vice-Chairperson",
+    Quote: "",
     Insta: "https://instagram.com/arsh.png?igshid=MzRlODBiNWFlZA==",
     Mail: "",
     Contact: "",
@@ -24,7 +26,8 @@ export const ExecDetails = [
   },
   {
     Name: "Ayush Srivastava",
-    About: "General Secretary",
+    Post: "General Secretary",
+    Quote: "",
     Insta: "https://instagram.com/ayushsvt?igshid=MzRlODBiNWFlZA==",
     Mail: "",
     Contact: "",
@@ -32,7 +35,8 @@ export const ExecDetails = [
   },
   {
     Name: "Kartikeya Jain",
-    About: "Deputy Secretary",
+    Post: "Deputy Secretary",
+    Quote: "",
     Insta: "https://instagram.com/kartikeya47jain?igshid=MzRlODBiNWFlZA==",
     Mail: "",
     Contact: "",
@@ -40,7 +44,8 @@ export const ExecDetails = [
   },
   {
     Name: "Shivangi Srivastava",
-    About: "Treasurer",
+    Post: "Treasurer",
+    Quote: "",
     Insta: "https://instagram.com/_shivangi.srivastava_?igshid=MzRlODBiNWFlZA==",
     Mail: "",
     Contact: "",
@@ -48,7 +53,8 @@ export const ExecDetails = [
   },
   {
     Name: "Hiya Ghosh",
-    About: "Technical Secretary",
+    Post: "Technical Secretary",
+    Quote: "",
     Insta: "https://instagram.com/hiyaghosh5603?igshid=MzRlODBiNWFlZA==",
     Mail: "",
     Contact: "",
