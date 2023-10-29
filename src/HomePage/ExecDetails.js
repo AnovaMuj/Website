@@ -36,7 +36,7 @@ export const ExecDetails = [
   {
     Name: "Kartikeya Jain",
     Post: "Deputy Secretary",
-    Quote: "",
+    Quote: "Data is all about a love story with infinite plots and endings",
     Insta: "https://instagram.com/kartikeya47jain?igshid=MzRlODBiNWFlZA==",
     Mail: "",
     Contact: "",
