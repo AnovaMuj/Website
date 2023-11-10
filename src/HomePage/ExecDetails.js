@@ -1,8 +1,7 @@
 import Chair from "../assets/Chair.jpg";
 import ViceChair from "../assets/ViceChair.jpg";
 import GenSec from "../assets/GenSec.jpg";
-import DepSec from "../assets/DepSec.jpg";
-import Tres from "../assets/Tres.jpg";
+import Tres from "../assets/DepSec.jpg";
 import Tech from "../assets/Tech.jpg";
 
 export const ExecDetails = [
@@ -35,18 +34,9 @@ export const ExecDetails = [
   },
   {
     Name: "Kartikeya Jain",
-    Post: "Deputy Secretary",
+    Post: "Treasurer",
     Quote: "Data is all about a love story with infinite plots and endings",
     Insta: "https://instagram.com/kartikeya47jain?igshid=MzRlODBiNWFlZA==",
-    Mail: "",
-    Contact: "",
-    Picture: DepSec,
-  },
-  {
-    Name: "Shivangi Srivastava",
-    Post: "Treasurer",
-    Quote: "",
-    Insta: "https://instagram.com/_shivangi.srivastava_?igshid=MzRlODBiNWFlZA==",
     Mail: "",
     Contact: "",
     Picture: Tres,
