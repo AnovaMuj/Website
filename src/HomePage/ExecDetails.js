@@ -1,7 +1,7 @@
 import Chair from "../assets/Chair.jpg";
 import ViceChair from "../assets/ViceChair.jpg";
 import GenSec from "../assets/GenSec.jpg";
-import Tres from "../assets/DepSec.jpg";
+import Tres from "../assets/Tres.jpg";
 import Tech from "../assets/Tech.jpg";
 
 export const ExecDetails = [
