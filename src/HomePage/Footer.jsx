@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="FooterNameBox">
         <h2 className="FooterName">ANOVA</h2>
         <h4 className="FooterTagLine">
-          Tech <span className="FooterWordHighlight">To</span>gether
+          Tech <span className="FooterWordHighlight">To</span>Get<span className="FooterWordHighlight">Over</span>Her
         </h4>
       </div>
       <div className="FooterContent">
