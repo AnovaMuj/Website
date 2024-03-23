@@ -1,6 +1,6 @@
 import EventCard from "./EventCard";
 import Poster1 from "../assets/CrypticCartelPoster.jpeg";
-import Poster2 from "../assets/DeloittePoster.png";
+import Poster2 from "../assets/DeloittePoster.jpg";
 import Poster3 from "../assets/GiveAndGlowPoster.jpeg";
 import Poster4 from "../assets/DejaVuPoster.jpeg";
 import Poster5 from "../assets/ResearchathonPoster.jpeg";
